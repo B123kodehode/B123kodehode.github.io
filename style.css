@@ -1,15 +1,31 @@
 body {
     background-color: #2a3e50;
-    color: aliceblue;
-    margin: 2% 10% auto;
+    margin: 5% 10%;
+    background-repeat: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+
+h1 {
     text-align: center;
+    color: rgb(246, 244, 247);
 }
 
 h4 {
-   
+  font-size: xx-large;
+  text-decoration: underline;
+  color: rgb(252, 252, 253);
 }
 
-p {
-    font-size: 1.5em;
-   letter-spacing: 1px;
+#picture1 {
+    height: 400px;
+    margin-left: 4%; 
+    margin-bottom: 2%;
 }
+
+
+#info {
+  font-size: x-large;
+  color: rgb(246, 244, 247);
+}
+
