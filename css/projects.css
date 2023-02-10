@@ -3,6 +3,11 @@ body {
     margin: 50px 100px;
 }  
 
+p {
+  font-size: x-large;
+  color: rgb(246, 244, 247);
+}
+
 #banner {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 80px;
