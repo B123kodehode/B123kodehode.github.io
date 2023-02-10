@@ -1,0 +1,77 @@
+body {
+    background-color: #2a3e50;
+    margin: 50px 100px;
+}  
+
+#banner {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    margin-top: -45px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  #buttonsContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    position: relative;
+    
+  }
+  
+  .myButton {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 0 9px #999;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .myButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    animation: shine 2s linear infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .myButton:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 14px #f3f3f1;
+    transform: translateY(-4px);
+  }
+  
+  .myButton:active {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
