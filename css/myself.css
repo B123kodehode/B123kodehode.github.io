@@ -3,6 +3,12 @@ body {
     margin: 50px 100px;
 } 
 
+h4 {  
+  font-size: xx-large;
+  text-decoration: underline;
+  color: rgb(252, 252, 253);
+}
+
 p {
   font-size: x-large;
   color: rgb(246, 244, 247);
