@@ -7,11 +7,15 @@ h4 {
   font-size: xx-large;
   text-decoration: underline;
   color: rgb(252, 252, 253);
+  text-align: center;
 }
 
-p {
+#myself {
   font-size: x-large;
   color: rgb(246, 244, 247);
+  letter-spacing: 3px;
+  margin-left: 11%;
+  margin-right: 35%;
 }
 
 #banner {
