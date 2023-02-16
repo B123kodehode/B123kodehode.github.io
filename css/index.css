@@ -109,3 +109,8 @@ h4 {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+#contact {
+  color: rgb(252, 252, 253);
+  margin-left: 11%;
+}
