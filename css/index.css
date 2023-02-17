@@ -5,9 +5,7 @@ body {
 
 h1 {
   font-size: xx-large;
-  text-decoration: underline;
   color: rgb(252, 252, 253);
-  
   text-align: center;
 }
 
@@ -18,11 +16,6 @@ h1 {
   position: absolute;
   left: 0px;
   right: 0px;
-}
-
-#mj {
-  text-align: center;
-  color: rgb(166, 168, 169);
 }
 
 h4 {  
@@ -65,7 +58,7 @@ h4 {
   display: inline-block;
   font-size: 16px;
   border-radius: 50px;
-  box-shadow: 0 9px #999;
+  
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   position: relative;
@@ -87,26 +80,19 @@ h4 {
   border-bottom-color: transparent;
   border-left-color: transparent;
   animation: shine 2s linear infinite;
+  box-shadow: 14px 17px 19px -7px rgba(114,133,153,0.6);
 }
 
-@keyframes shine {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 .myButton:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 14px #f3f3f1;
+  background-color: rgba(28, 142, 224, 0.3);
+  box-shadow: 19px -10px 9px -2px inset rgba(150, 150, 150, 0.46);
   transform: translateY(-4px);
 }
 
 .myButton:active {
-  background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 5px #666;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 1px 1px 5px 5px #fffefe;
   transform: translateY(4px);
 }
 
