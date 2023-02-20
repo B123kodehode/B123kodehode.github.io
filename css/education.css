@@ -17,6 +17,14 @@ h4 {
   margin-right: 35%;
 }
 
+ul {
+  font-size: x-large;
+  color: rgb(246, 244, 247);
+  letter-spacing: 3px;
+  margin-left: 11%;
+  margin-right: 35%;
+}
+
 #banner {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 80px;
