@@ -92,3 +92,7 @@ ul {
     box-shadow: 1px 1px 5px 5px #fffefe;
     transform: translateY(4px);
   }
+
+  img {
+    height: 400px;
+  }
